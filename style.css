@@ -105,6 +105,14 @@ ul {
   padding-right: 10vw;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: #eff1f3;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #eff1f3;
+}
+
 /* Home */
 .bg {
   min-height: 50vh;
