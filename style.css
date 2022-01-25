@@ -158,9 +158,33 @@ ul {
   margin-right: 0vw;
 }
 
-.people-cards {
+.team-cards {
   margin-left: 10vw;
   margin-right: 10vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.team-name {
+  font-weight: 600;
+}
+
+.team-social-links a {
+  display: inline-block;
+  transition: 0.2s;
+  padding-right: 5px;
+}
+
+.team-social-links a:hover {
+  transform: scale(1.2);
+}
+
+.team-social-links a i {
+  color: #1c2321;
+}
+
+.team-social-links {
+  font-size: 17px;
 }
 
 /* Contact */
