@@ -138,8 +138,17 @@ ul {
   padding-top: 0px;
 }
 
-/* Contact */
+#team p {
+  margin-left: 0vw;
+  margin-right: 0vw;
+}
 
+.people-cards {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+/* Contact */
 #contact ul {
   margin-left: 5vw;
   padding-left: 25px;
