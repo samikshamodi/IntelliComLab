@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,500;1,400&family=Merriweather:ital@0;1&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -9,11 +11,17 @@ html {
 }
 
 a {
-  text-decoration: none;
+  color: #286dc0;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #1c2321;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #eff1f3;
 }
 
 /* 
@@ -22,42 +30,43 @@ regular - 400
 semi-bold - 600
 bold - 700
 */
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin-left: 10vw;
+  margin-right: 25vw;
+}
 
 h1 {
   /* Home page - lab name */
-  color: #7b4b94;
-  font-weight: 700;
-  /*  font-size: 54px; */
-  margin-left: 5vw;
-  margin-right: 5vw;
+  color: #00356b;
+  font-weight: 600;
+  font-family: "Playfair Display", "Bitter", "Open Sans", serif;
 }
 
 h2 {
   /* Latest News, Projects, Contact, Publications, Team */
-  color: #7b4b94;
-  /* font-size: 30px; */
-  font-weight: 700;
+  color: #00356b;
+  font-weight: 600;
   padding-top: 20px;
   padding-bottom: 10px;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  font-family: "Playfair Display", "Bitter", "Open Sans", serif;
 }
 
 h3 {
   /* Ongoing, Completed */
   color: #1c2321;
-  /* font-size: 20px; */
   font-weight: 600;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  font-family: "Playfair Display", "Bitter", "Open Sans", serif;
 }
 
 h4 {
   /* Completed project title */
   color: #1c2321;
-  /* font-size: 18px; */
-  margin-left: 5vw;
-  margin-right: 5vw;
+  font-family: "Playfair Display", "Bitter", "Open Sans", serif;
 }
 
 li {
@@ -66,16 +75,10 @@ li {
 
 p {
   color: #1c2321;
-  /*  font-size: 16px; */
-  margin-left: 5vw;
-  margin-right: 5vw;
 }
 
 ul {
   color: #1c2321;
-  /* font-size: 16px; */
-  margin-left: 5vw;
-  margin-right: 5vw;
   padding-left: 20px;
 }
 
@@ -85,13 +88,16 @@ ul {
 }
 
 /* Navbar */
+#header a {
+  text-decoration: none;
+}
 
 /* Home */
 #home img {
   width: 100%;
   height: auto;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 0vw;
+  padding-right: 0vw;
 }
 
 .display-4 {
@@ -99,27 +105,6 @@ ul {
 }
 
 /* Latest News */
-#latest-news h2 {
-  text-align: center;
-  padding-top: 0px;
-  padding-bottom: 20px;
-}
-
-.news {
-  padding: 40px;
-  margin-left: 5vw;
-  margin-right: 5vw;
-  background-color: #f9fafb;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.fa-li {
-  padding-top: 9px;
-}
-
-.fa-ul {
-  padding-left: 3vw;
-}
 
 /* Projects */
 
@@ -129,7 +114,7 @@ ul {
 }
 
 .paper-title {
-  color: #0e79b2;
+  color: #286dc0;
   font-style: italic;
 }
 
@@ -144,23 +129,21 @@ ul {
 }
 
 .people-cards {
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 /* Contact */
-#contact ul {
-  margin-left: 5vw;
-  padding-left: 25px;
-}
 
 /* Footer */
 .footer {
-  background-color: #1c2321;
+  background-color: #00356b;
   padding: 15px;
 }
 
 #footer p {
-  color: #f9fafb;
+  color: #eff1f3;
+  margin-left: 0;
+  margin-right: 0;
   text-align: center;
 }
