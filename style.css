@@ -24,6 +24,10 @@ body {
   background-color: #eff1f3;
 }
 
+.bold-text {
+  font-weight: 700;
+}
+
 /* 
 Font weight  
 regular - 400 
@@ -187,6 +191,9 @@ ul {
   font-size: 17px;
 }
 
+.google-scholar {
+  width: 17px;
+}
 /* Contact */
 
 /* Footer */
