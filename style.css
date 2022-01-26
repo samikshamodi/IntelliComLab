@@ -208,3 +208,28 @@ ul {
   margin-right: 0;
   text-align: center;
 }
+
+/* For Tablet or smaller devices */
+@media screen and (max-device-width: 1280px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  ul {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  .navbar {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
+  .team-cards {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
