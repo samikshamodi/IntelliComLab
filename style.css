@@ -222,18 +222,18 @@ ul {
   h4,
   p,
   ul {
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 
   .navbar {
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
 
   .team-cards {
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     padding-top: 10px;
     padding-bottom: 10px;
   }
