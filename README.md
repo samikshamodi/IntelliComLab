@@ -1,2 +1,2 @@
 # IntelliCom Lab, IIITD
-Website: https://samikshamodi.github.io/IntelliComLab/team.html
+Website: https://samikshamodi.github.io/IntelliComLab/index.html
